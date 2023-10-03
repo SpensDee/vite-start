@@ -12,6 +12,11 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "sass": "^1.68.0"
+    "autoprefixer": "^10.4.16",
+    "postcss-combine-duplicated-selectors": "^10.0.3",
+    "postcss-combine-media-query": "^1.0.1",
+    "sass": "^1.68.0",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-imagemin": "^0.6.1"
   }
 }
