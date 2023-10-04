@@ -30,4 +30,4 @@ yarn build
 
 - імпорт
 
-  <a href="{=$href}">{=$text}</a>
+  <a href=" {=$href} " >{=$text} </a>
