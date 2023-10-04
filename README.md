@@ -22,8 +22,9 @@ yarn build
 
 #### прклад вкористання змінних
 
-```
 - ініціалізація
+
+```
   <load ="src/some-static-link.htm"
   text="Go to DuckDuckGo"
   href="https://duckduckgo.com" />
