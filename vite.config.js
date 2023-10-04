@@ -3,6 +3,7 @@ import combineSelectors from "postcss-combine-duplicated-selectors";
 import combineMediaQueries from "postcss-combine-media-query";
 import compress from "vite-plugin-compression";
 import imageMin from "vite-plugin-imagemin";
+import injectHTML from "vite-plugin-html-inject";
 
 const isProd = process.env.NODE_ENV === "production";
 
@@ -20,9 +21,9 @@ export default {
     minify: isProd,
   },
   plugins: [
+    injectHTML(),
     imageMin({
       svgo: {
-        // https://github.com/svg/svgo#built-in-plugins
         plugins: [
           { name: "RemoveTitle", active: false },
           { name: "RemoveDescription", active: false },

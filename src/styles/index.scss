@@ -1,4 +1,5 @@
 @import "reset";
+
 :root {
   --main-color: #000;
 }
@@ -9,15 +10,4 @@ body {
   line-height: 1.4;
   color: var(--main-color);
   background-color: #fff;
-}
-
-@media (max-width: 1200px) {
-  .a {
-    color: red;
-  }
-}
-@media (max-width: 1200px) {
-  .abc {
-    font-size: 30px;
-  }
 }

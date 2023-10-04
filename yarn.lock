@@ -2726,6 +2726,11 @@ vite-plugin-compression@^0.5.1:
     debug "^4.3.3"
     fs-extra "^10.0.0"
 
+vite-plugin-html-inject@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vite-plugin-html-inject/-/vite-plugin-html-inject-1.0.4.tgz#f9e50ae902c127c3a96f8e06f9c8fbf26352f7c7"
+  integrity sha512-DYy2tM0jhhOhYa7Seb4Xv2/iTnyVAhm5o7DVQbPBdEwgWLnWFf304GxUyoxld8lEJH6qLIosPCK0Cmc/WS4Ytw==
+
 vite-plugin-imagemin@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/vite-plugin-imagemin/-/vite-plugin-imagemin-0.6.1.tgz#d4e538beaa6265fb0df17396666ee90483e953bc"
