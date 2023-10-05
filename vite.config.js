@@ -4,6 +4,7 @@ import combineMediaQueries from "postcss-combine-media-query";
 import compress from "vite-plugin-compression";
 import imageMin from "vite-plugin-imagemin";
 import injectHTML from "vite-plugin-html-inject";
+import purgecss from "@fullhuman/postcss-purgecss";
 
 const isProd = process.env.NODE_ENV === "production";
 
@@ -14,6 +15,9 @@ export default {
         combineMediaQueries(),
         combineSelectors({ removeDuplicatedValues: true }),
         autoprefixer(),
+        purgecss({
+          content: ["./dist/*.html"],
+        }),
       ],
     },
   },
